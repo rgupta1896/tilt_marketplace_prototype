@@ -201,6 +201,7 @@ export default function App() {
         <ExperimentPanel
           intervention={activeIntervention}
           details={activeContent.metric}
+          roomState={roomState}
         />
       </section>
     </main>
